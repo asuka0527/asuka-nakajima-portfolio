@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+
+    & > * {
+      margin-bottom: 5rem;
+    }
+  }
+  &__photo {
+    height: 50rem;
+    width: auto;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 1),
+      rgba($color-secondary, 1)
+    );
+    filter: grayscale(0.7);
+
+    @media only screen and (max-width: $bp-medium) {
+      align-self: center;
+    }
+  }
+  &__skills {
+    margin-left: 3rem;
+    & > * {
+      margin-bottom: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      margin-left: 0;
+    }
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 2;
+  }
+}

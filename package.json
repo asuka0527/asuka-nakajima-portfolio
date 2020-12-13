@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Asuka Nakajima Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.30.0"
+  },
+  "dependencies": {}
+}

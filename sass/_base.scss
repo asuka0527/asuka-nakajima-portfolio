@@ -1,0 +1,73 @@
+/*
+#BA8B02
+#181818
+*/
+
+// COLOR VARIABLES
+$color-secondary: #240b36;
+$color-secondary-light: #363636;
+
+$color-primary: #c31432;
+$color-primary-dark: #423202;
+
+$color-tertiary: #ffa500;
+// FONT VARIABLES
+$font-primary: "Raleway", sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75rem; // 1200px /16px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em;
+$bp-smallest: 20em;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.3),
+      rgba($color-secondary, 0.3)
+    ),
+    url(../imgs/low_poly_abstract_background_design_0401.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+  // background-color: #181818;
+  color: #ba8b02;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%; //1 rem = 8px
+  }
+}
+
+.header--1 {
+  font-size: 7rem;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.header--2 {
+  font-size: 6rem;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+
+.header--3 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  word-spacing: 1;
+  font-weight: 400;
+}

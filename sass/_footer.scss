@@ -1,0 +1,37 @@
+.footer {
+  background-image: linear-gradient(
+    to left bottom,
+    rgba($color-primary, 1),
+    rgba($color-secondary, 1)
+  );
+  margin-top: 20rem;
+  padding: 2rem;
+
+  &__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+    }
+  }
+}
+
+.copyright {
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 2rem;
+  }
+  &__text {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  &__text--highlight {
+    color: $color-tertiary;
+  }
+}

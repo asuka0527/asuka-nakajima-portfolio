@@ -1,0 +1,126 @@
+.project {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-gap: 8rem;
+      padding: 0 8rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      grid-gap: 5rem;
+      padding: 0 4rem;
+      justify-content: center;
+    }
+  }
+  &__item {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    // background-color: #000;
+    transition: all 0.2s;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+  }
+
+  .photo {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.8);
+    transition: all 0.2s;
+    // transform: scale(1.15);
+  }
+
+  &__link:link,
+  &__link:visited {
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 0;
+    border: none;
+    z-index: 100;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 1),
+      rgba($color-secondary, 1)
+    );
+    padding: 1rem 3rem;
+    border-radius: 100px;
+    color: #fff;
+    transition: b 0.2s;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+  }
+
+  &__link--demo {
+    top: 80%;
+    left: 15%;
+  }
+  &__link--code {
+    top: 80%;
+    right: 15%;
+  }
+
+  &__link:hover {
+    background-image: linear-gradient(
+      to left bottom,
+      rgba($color-primary, 1),
+      rgba($color-secondary, 1)
+    );
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 100;
+    color: #fff;
+    opacity: 0;
+    // transition: all 0.2;
+    backface-visibility: hidden;
+  }
+
+  .title {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    word-spacing: 1;
+    font-weight: 400;
+  }
+  .paragraph {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.project__item:hover .project__link {
+  animation: moveInBottom ease-out 1s;
+  opacity: 1;
+}
+
+.project__item:hover .project__text {
+  opacity: 1;
+  animation: moveInLeft ease-out 1.5s;
+}
+
+.project__item:hover .photo {
+  filter: brightness(1);
+  opacity: 0.2;
+
+  // transform: scale(1.03);
+}
+
+.project__item:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary, 1),
+    rgba($color-secondary, 1)
+  );
+}

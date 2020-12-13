@@ -1,0 +1,35 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.header {
+  height: 100vh;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.3),
+      rgba($color-secondary, 0.3)
+    ),
+    url(../imgs/low_poly_abstract_background_design_0401.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 4rem;
+  transition: transform 1s, opacity 1s;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 8rem auto;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
