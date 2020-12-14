@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asuka Nakajima</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="src/sass/main.scss" />
+    <link rel="preconnect" href="0aca0d6babe0a53839bd0fb91509cf27">
+    <link href="170a6cc1fb5cd46d00d9fea90f60808f" rel="stylesheet">
+    <link rel="stylesheet" href="6cfafb9b3aaeaa3daf4f439788d6fd81">
   </head>
   <body>
     <header class="header" id="header">
@@ -29,19 +26,16 @@
             <a href="#section--3" class="nav__link"> Skills </a>
           </li>
           <li class="nav__item">
-            <a href="https://github.com/asuka0527" class="nav__link">
+            <a href="8165ff562900d832723d7724172558fa" class="nav__link">
               <svg class="icon icon-github">
-                <use href="src/imgs/sprite.svg#icon-github"></use>
+                <use href="7e26b135466f1d6b0e19e20c0a57f2ba"></use>
               </svg>
             </a>
           </li>
           <li class="nav__item">
-            <a
-              href="https://www.linkedin.com/in/asuka-nakajima-developer/"
-              class="nav__link"
-            >
+            <a href="d89aa351e4051cee2acadfdf56f7426f" class="nav__link">
               <svg class="icon icon-linkedin">
-                <use href="src/imgs/sprite.svg#icon-linkedin"></use>
+                <use href="49dce55011c51b1212e1809d93697477"></use>
               </svg>
             </a>
           </li>
@@ -50,231 +44,133 @@
 
       <div class="typewriter">
         <h1 class="header--1">
-          { Hi, I'm Asuka a <br />
-          <span
-            class="text-type"
-            data-wait="3000"
-            data-words='["Developer","Designer", "Creator"]'
-          ></span>
+          { Hi, I'm Asuka a <br>
+          <span class="text-type" data-wait="3000" data-words="[&quot;Developer&quot;,&quot;Designer&quot;, &quot;Creator&quot;]"></span>
           }
         </h1>
       </div>
     </header>
 
     <div class="container">
-      <section
-        class="section section--hidden section-projects project"
-        id="section--1"
-      >
+      <section class="section section--hidden section-projects project" id="section--1">
         <div class="section-title">
           <h2 class="header--2 section__text">Projects</h2>
         </div>
         <ul class="project__list">
           <li class="project__item project__item--1">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-1.png"
-                alt="forkify-recipe-finder-app"
-              />
+              <img class="photo" src="13aaa4f1bd53e44e7d782ba0711fdb03" alt="forkify-recipe-finder-app">
             </figure>
             <div class="project__text">
               <h2 class="title">Forkify</h2>
               <p class="paragraph">Search over 1,000,000 recipes</p>
             </div>
-            <a
-              href="https://forkify-recipe-finder-app.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/forkify.git"
-              class="project__link project__link--code"
-            >
+            <a href="d89bc965658462f897e3a886a5ed37bc" class="project__link project__link--demo">Demo</a>
+            <a href="bb6bb5e28e26988abbf9af8ec3eedb2e" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--2">
             <figure class="project__photo">
-              <img class="photo" src="src/imgs/project-2.png" alt="mapty-app" />
+              <img class="photo" src="aa8f58ee7fb161e7bf23efc074dc52d0" alt="mapty-app">
             </figure>
             <div class="project__text">
               <h2 class="title">Mapty</h2>
               <p class="paragraph">Track location of workouts</p>
             </div>
-            <a
-              href="https://mapty-workout-app.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/mapty.git"
-              class="project__link project__link--code"
-            >
+            <a href="723c9644cad6c5d53d139cf171dcb1d0" class="project__link project__link--demo">Demo</a>
+            <a href="843b08cca592397cd6f185f12def9274" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--3">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-3.png"
-                alt="omnifood-project"
-              />
+              <img class="photo" src="74e685798218f8892d6aff908a388bc5" alt="omnifood-project">
             </figure>
             <div class="project__text">
               <h2 class="title">Omni food</h2>
               <p class="paragraph">Food delivery website</p>
             </div>
-            <a
-              href="https://omnifood-asuka.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/omnifood-project.git"
-              class="project__link project__link--code"
-            >
+            <a href="364f0bb6f21b68443ff5de062c7fcb10" class="project__link project__link--demo">Demo</a>
+            <a href="99f4fa0d87c1a7afefc8a40e54ae80a2" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--4">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-4.png"
-                alt="natours-travelwebsite"
-              />
+              <img class="photo" src="32d26574eb977a354da1b3dbc5a989cd" alt="natours-travelwebsite">
             </figure>
             <div class="project__text">
               <h2 class="title">Natours</h2>
               <p class="paragraph">Travel website</p>
             </div>
-            <a
-              href="https://natours-travelwebsite.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/natours-travel-website-project.git"
-              class="project__link project__link--code"
-            >
+            <a href="a761a29d6180dc8a1f62c745fcb5bf02" class="project__link project__link--demo">Demo</a>
+            <a href="5ef142ab7ea7b775de774eb1cc0567b0" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--5">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-5.png"
-                alt="nexter-realestate"
-              />
+              <img class="photo" src="4ed1135cb5dc3bcca86ab64d63db79e6" alt="nexter-realestate">
             </figure>
             <div class="project__text">
               <h2 class="title">Nexter</h2>
               <p class="paragraph">Real estate website</p>
             </div>
-            <a
-              href="https://nexter-realestate.netlify.app"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/nexter-realestate-website.git"
-              class="project__link project__link--code"
-            >
+            <a href="f3a551fec787fe19caf96556da45b8c4" class="project__link project__link--demo">Demo</a>
+            <a href="6c9cf091d11a5b87546efc355dab62a7" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--6">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-6.png"
-                alt="trillo-booking-app"
-              />
+              <img class="photo" src="f8243a7ea997144aa1874cce8ff3a8ab" alt="trillo-booking-app">
             </figure>
             <div class="project__text">
               <h2 class="title">Trillo</h2>
               <p class="paragraph">Booking website</p>
             </div>
-            <a
-              href="https://trillo-bookingapp.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/trillo-booking-app.git"
-              class="project__link project__link--code"
-            >
+            <a href="95767ad5921c5634d9ada04048227bdd" class="project__link project__link--demo">Demo</a>
+            <a href="2331896757e4ffe22ee0532ef1a9fc53" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--7">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-7.png"
-                alt="todo-list-app"
-              />
+              <img class="photo" src="f393f1b36fe158a64b7d86ae666e73ed" alt="todo-list-app">
             </figure>
             <div class="project__text">
               <h2 class="title">To-Do App</h2>
               <p class="paragraph">Keep track of your todos</p>
             </div>
-            <a
-              href="https://todoapp-asuka.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/todo-app.git"
-              class="project__link project__link--code"
-            >
+            <a href="3d3f9058822c4b25f15725ec1c5ecb56" class="project__link project__link--demo">Demo</a>
+            <a href="206adfd307f01aae53c2eb006fd981b9" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--8">
             <figure class="project__photo">
-              <img
-                class="photo"
-                src="src/imgs/project-8.png"
-                alt="pig-game-app"
-              />
+              <img class="photo" src="ff6a1fefe0f12f80b250e928b12e1662" alt="pig-game-app">
             </figure>
             <div class="project__text">
               <h2 class="title">Pig Game</h2>
               <p class="paragraph">Game of luck and strategy</p>
             </div>
-            <a
-              href="https://piggame-asuka.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/pig-game-project.git"
-              class="project__link project__link--code"
-            >
+            <a href="1766c970d414d159cf4452cbdaae3831" class="project__link project__link--demo">Demo</a>
+            <a href="de5af9ff1fb75e0fdf5abbe3c4daf19f" class="project__link project__link--code">
               Code
             </a>
           </li>
           <li class="project__item project__item--9">
             <figure class="project__photo">
-              <img class="photo" src="src/imgs/project-9.png" alt="" />
+              <img class="photo" src="a29e0d9e2ebcd1f1bcc3049033ae5753" alt="">
             </figure>
             <div class="project__text">
               <h2 class="title">Mystery number</h2>
               <p class="paragraph">What's the secret number?</p>
             </div>
-            <a
-              href="https://guessmynumbergame.netlify.app/"
-              class="project__link project__link--demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/asuka0527/guessmynumber-game.git"
-              class="project__link project__link--code"
-            >
+            <a href="7cc541766508313fe59a39b430742cde" class="project__link project__link--demo">Demo</a>
+            <a href="5a77e497e6834bcbbbfcf9543211699f" class="project__link project__link--code">
               Code
             </a>
           </li>
@@ -287,11 +183,7 @@
         </div>
         <div class="about">
           <div class="about__photo">
-            <img
-              class="about__photo about__photo--1"
-              src="src/imgs/Asuka Nakajima.jpg"
-              alt=""
-            />
+            <img class="about__photo about__photo--1" src="e309a2eb40cda62e017afece914a6f2f" alt="">
           </div>
 
           <div class="about__skills">
@@ -374,19 +266,16 @@
               <a href="#section--3" class="nav__link"> Skills </a>
             </li>
             <li class="nav__item">
-              <a href="https://github.com/asuka0527" class="nav__link">
+              <a href="8165ff562900d832723d7724172558fa" class="nav__link">
                 <svg class="icon icon-github">
-                  <use href="src/imgs/sprite.svg#icon-github"></use>
+                  <use href="7e26b135466f1d6b0e19e20c0a57f2ba"></use>
                 </svg>
               </a>
             </li>
             <li class="nav__item">
-              <a
-                href="https://www.linkedin.com/in/asuka-nakajima-developer/"
-                class="nav__link"
-              >
+              <a href="d89aa351e4051cee2acadfdf56f7426f" class="nav__link">
                 <svg class="icon icon-linkedin">
-                  <use href="src/imgs/sprite.svg#icon-linkedin"></use>
+                  <use href="49dce55011c51b1212e1809d93697477"></use>
                 </svg>
               </a>
             </li>
@@ -395,38 +284,21 @@
         <div class="copyright">
           <p class="copyright__text">
             Portfolio by
-            <span class="copyright__text copyright__text--highlight"
-              >Asuka Nakajima</span
-            >
+            <span class="copyright__text copyright__text--highlight">Asuka Nakajima</span>
           </p>
         </div>
       </div>
     </footer>
     <div class="resume hidden">
-      <embed
-        src="src/resume/Asuka Nakajima -CV.pdf"
-        type="application/pdf"
-        width="100%"
-        height="100%"
-      />
+      <embed src="889122bb385e1555e4444e93d1cdbdfb" type="application/pdf" width="100%" height="100%">
     </div>
     <div class="rirekisho hidden">
-      <embed
-        src="src/resume/履歴書　– 中島明日香.pdf"
-        type="application/pdf"
-        width="100%"
-        height="100%"
-      />
+      <embed src="abfe1331cef636bcd338e08e63557e76" type="application/pdf" width="100%" height="100%">
     </div>
     <div class="shokumukeireki hidden">
-      <embed
-        src="src/resume/職務経歴書　- 中島明日香.pdf"
-        type="application/pdf"
-        width="100%"
-        height="100%"
-      />
+      <embed src="84fd1db30ade9cc12420e2430b72b8f6" type="application/pdf" width="100%" height="100%">
     </div>
     <div class="overlay hidden"></div>
-    <script src="src/app.js"></script>
+    <script src="9e034876d51f23258789d5d9d6f5120c"></script>
   </body>
 </html>
