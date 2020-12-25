@@ -165,3 +165,9 @@ window.addEventListener("keydown", function (e) {
     overlay.classList.add("hidden");
   }
 });
+
+const fetchBitcoinprice = async () => {
+  const res = await fetch("https://api.cryptonator.com/api/full/btc-usd");
+  const data = await res.json();
+  console.log(data);
+};

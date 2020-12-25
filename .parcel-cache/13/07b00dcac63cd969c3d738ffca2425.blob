@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asuka Nakajima</title>
+
+    <link rel="preconnect" href="da9afb61e15e5caa1c8af2c6f046c478">
+    <link href="236ef53fe838583a619996450f7508ce" rel="stylesheet">
+    <link rel="stylesheet" href="8bf3aa0590579dbc0aa7de49988a8c5f">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav__header">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#header" class="nav__link"> Home </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link"> Projects </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link"> About </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link"> Skills </a>
+          </li>
+          <li class="nav__item">
+            <a href="fad75d1761cc0ba418a29389ca3e6da7" class="nav__link">
+              <svg class="icon icon-github">
+                <use href="9d8c0e45b74c003f05dc0efe31cbe0b9"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="7eb7e4b67edac5ff47ff7c7a827baa98" class="nav__link">
+              <svg class="icon icon-linkedin">
+                <use href="c2dba968e11f5d4b0877b1dc3049a4ec"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="typewriter">
+        <h1 class="header--1">
+          { Hi, I'm Asuka a <br>
+          <span class="text-type" data-wait="3000" data-words="[&quot;Developer&quot;,&quot;Designer&quot;, &quot;Creator&quot;]"></span>
+          }
+        </h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="section section--hidden section-projects project" id="section--1">
+        <div class="section-title">
+          <h2 class="header--2 section__text">Projects</h2>
+        </div>
+        <ul class="project__list">
+          <li class="project__item project__item--1">
+            <figure class="project__photo">
+              <img class="photo" src="2298027e5c0ebe6c34db98cf05734c5c" alt="forkify-recipe-finder-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Forkify</h2>
+              <p class="paragraph">Search over 1,000,000 recipes</p>
+            </div>
+            <a href="e1e0fe93a1d5633007b65dee5522692f" class="project__link project__link--demo">Demo</a>
+            <a href="1b51a9c378512a0c4cf263c3e6618041" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--2">
+            <figure class="project__photo">
+              <img class="photo" src="20f4471d2538619e491459118c1a8016" alt="mapty-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Mapty</h2>
+              <p class="paragraph">Track location of workouts</p>
+            </div>
+            <a href="4911f8899a2d24a747e8d494cc59fb9c" class="project__link project__link--demo">Demo</a>
+            <a href="f2a0f9e7baf9b28c3050f9758ef1a024" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--3">
+            <figure class="project__photo">
+              <img class="photo" src="9b7e92c13b2279556bf5e3a422add758" alt="omnifood-project">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Omni food</h2>
+              <p class="paragraph">Food delivery website</p>
+            </div>
+            <a href="bba111ae8007bc15fe19f0cdb992c897" class="project__link project__link--demo">Demo</a>
+            <a href="7b28a770d312f8d7314e5b638dddea66" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--4">
+            <figure class="project__photo">
+              <img class="photo" src="35c0ba3a4f8ba5059232ee1d3fd5f04a" alt="natours-travelwebsite">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Natours</h2>
+              <p class="paragraph">Travel website</p>
+            </div>
+            <a href="28c673eff7e0c9aa0995b5d44d778f0d" class="project__link project__link--demo">Demo</a>
+            <a href="a5b9f4ab8e2998228cc7d9b26c7e6a49" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--5">
+            <figure class="project__photo">
+              <img class="photo" src="d9dd33202e8a6a691b50e80a1a932afd" alt="nexter-realestate">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Nexter</h2>
+              <p class="paragraph">Real estate website</p>
+            </div>
+            <a href="9fb380a70fee73462f25116e92166094" class="project__link project__link--demo">Demo</a>
+            <a href="8a3b38fafa829ea8bcf0976dff1eb34a" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--6">
+            <figure class="project__photo">
+              <img class="photo" src="6addd6bc4d3f02ca71de3b8dee4c18a9" alt="trillo-booking-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Trillo</h2>
+              <p class="paragraph">Booking website</p>
+            </div>
+            <a href="0eb87d823b6cff7f297baf2bfafa99fe" class="project__link project__link--demo">Demo</a>
+            <a href="4ae38d2a3bff637c4149153218ca7231" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--7">
+            <figure class="project__photo">
+              <img class="photo" src="3adfb37e84b7be800774c28293cac1da" alt="todo-list-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">To-Do App</h2>
+              <p class="paragraph">Keep track of your todos</p>
+            </div>
+            <a href="36f7755d6bc403ba262906c99f1db786" class="project__link project__link--demo">Demo</a>
+            <a href="b0bf012ba1138efc4d729d82f7a3a860" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--8">
+            <figure class="project__photo">
+              <img class="photo" src="30837ea48c9f299eb0b525114d8bbac5" alt="pig-game-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Pig Game</h2>
+              <p class="paragraph">Game of luck and strategy</p>
+            </div>
+            <a href="efd424fad11d36582c667f329cd95f65" class="project__link project__link--demo">Demo</a>
+            <a href="7668739aff73d2cba8d393e582a500a0" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--9">
+            <figure class="project__photo">
+              <img class="photo" src="6ba1d66196385e20fd0f99ddca5773b6" alt="">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Mystery number</h2>
+              <p class="paragraph">What's the secret number?</p>
+            </div>
+            <a href="b725b2e0907cd690b6d4b15d0112e2e8" class="project__link project__link--demo">Demo</a>
+            <a href="e9a4e6c89104839d55a56f5447c06acf" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section--hidden section-about" id="section--2">
+        <div class="section-title">
+          <h2 class="header--2 section__text">About</h2>
+        </div>
+        <div class="about">
+          <div class="about__photo">
+            <img class="about__photo about__photo--1" src="be2c7f93879c7cf7874e5944ef6ce729" alt="">
+          </div>
+
+          <div class="about__skills">
+            <div class="about__skills about__skills--text">
+              <p class="about__paragraph">
+                I dedicated hundreds of hours training—enrolled in different
+                courses online including but not limited to, HTML5 and CSS3,
+                Advanced CSS and Sass, JavaScript Web Projects, and other
+                topics, creating from zero and replicating different websites
+                such travel, food delivery and real estate.
+              </p>
+              <p class="about__paragraph">
+                The learning does not stop there therefore I continue to study
+                every single day to enhance my skills. Being a self-taught
+                developer allowed me to work in different projects that enhanced
+                my creativity and problem-solving skills, immense discipline,
+                and effectiveness for my desire from creating something out of
+                nothing, to creating something out of myself—and that I am proud
+                of, too.
+              </p>
+              <div class="btn__container">
+                <button class="btn btn--resume">Resume &rarr;</button>
+                <button class="btn btn--rirekisho">履歴書 &rarr;</button>
+                <button class="btn btn--shokumukeireki">
+                  職務経歴書 &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--hidden section-skill" id="section--3">
+        <div class="section-title">
+          <h2 class="header--2 section__text">Skills</h2>
+        </div>
+        <div class="skills">
+          <div class="skills__container">
+            <h3 class="skills__title header--3">Frontend</h3>
+
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS3</li>
+              <li>Sass and modern CSS technologies such as Flexbox and Grid</li>
+              <li>JavaScript (ES5 and ES6+)</li>
+              <li>Jquery</li>
+              <li>Parcel and Babel</li>
+              <li>Mobile Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skills__container">
+            <h3 class="skills__title header--3">Other Skills</h3>
+            <ul>
+              <li>BEM Methodology</li>
+              <li>Github</li>
+              <li>Netlify</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Autodesk Revit</li>
+              <li>Vectorworks</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a href="#header" class="nav__link"> Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--1" class="nav__link"> Projects </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--2" class="nav__link"> About </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--3" class="nav__link"> Skills </a>
+            </li>
+            <li class="nav__item">
+              <a href="fad75d1761cc0ba418a29389ca3e6da7" class="nav__link">
+                <svg class="icon icon-github">
+                  <use href="9d8c0e45b74c003f05dc0efe31cbe0b9"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="7eb7e4b67edac5ff47ff7c7a827baa98" class="nav__link">
+                <svg class="icon icon-linkedin">
+                  <use href="c2dba968e11f5d4b0877b1dc3049a4ec"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          <p class="copyright__text">
+            Portfolio by
+            <span class="copyright__text copyright__text--highlight">Asuka Nakajima</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="resume hidden">
+      <embed src="02dae34363aac75bd2e4c2baee5bb2e9" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="rirekisho hidden">
+      <embed src="20885a3f5f538a8e7b52ff6e2ae2aeac" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="shokumukeireki hidden">
+      <embed src="a31915eb4bd26558e51f4145626e31e0" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="358952df96209301eecedf51c648a713"></script>
+  </body>
+</html>
