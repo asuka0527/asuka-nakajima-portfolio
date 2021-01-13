@@ -30,11 +30,10 @@ $bp-smallest: 20em;
 html,
 body {
   background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary, 0.3),
-      rgba($color-secondary, 0.3)
-    ),
-    url(../imgs/low_poly_abstract_background_design_0401.jpg);
+    to right bottom,
+    rgba($color-primary, 0.3),
+    rgba($color-secondary, 0.3)
+  );
   background-size: cover;
   background-attachment: fixed;
 

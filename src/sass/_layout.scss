@@ -6,11 +6,10 @@
   height: 100vh;
 
   background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary, 0.3),
-      rgba($color-secondary, 0.3)
-    ),
-    url(../imgs/bg-small.jpeg);
+    to right bottom,
+    rgba($color-primary, 0.3),
+    rgba($color-secondary, 0.3)
+  );
   background-size: cover;
   background-attachment: fixed;
 
