@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asuka Nakajima</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.8638059a.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav__header">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#header" class="nav__link"> Home </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link"> Projects </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link"> About </a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link"> Skills </a>
+          </li>
+          <li class="nav__item">
+            <a href="https://github.com/asuka0527" class="nav__link">
+              <svg class="icon icon-github">
+                <use href="/sprite.b38c80a6.svg#icon-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="https://www.linkedin.com/in/asuka-nakajima-developer/" class="nav__link">
+              <svg class="icon icon-linkedin">
+                <use href="/sprite.b38c80a6.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="typewriter">
+        <h1 class="header--1">
+          { Hi, I'm Asuka a <br>
+          <span class="text-type" data-wait="3000" data-words="[&quot;Developer&quot;,&quot;Designer&quot;, &quot;Creator&quot;]"></span>
+          }
+        </h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="section section--hidden section-projects project" id="section--1">
+        <div class="section-title">
+          <h2 class="header--2 section__text">Projects</h2>
+        </div>
+
+        <ul class="project__list">
+          <li class="project__item project__item--0">
+            <figure class="project__photo">
+              <img class="photo" src="/project--1.54db29d1.png" alt="expensify-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Crown Clothing</h2>
+              <p class="paragraph">E-commerce App</p>
+            </div>
+            <a href=" https://crown-clothing--live.herokuapp.com/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/crown-shopping.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--0">
+            <figure class="project__photo">
+              <img class="photo" src="/project-0.9fdc0cf7.png" alt="expensify-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Expensify</h2>
+              <p class="paragraph">Budget App</p>
+            </div>
+            <a href="https://react-expensify-app-asuka.herokuapp.com/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/react-expensify-app.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+
+          <li class="project__item project__item--1">
+            <figure class="project__photo">
+              <img class="photo" src="/project-1.ff73cc12.png" alt="forkify-recipe-finder-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Forkify</h2>
+              <p class="paragraph">Search over 1,000,000 recipes</p>
+            </div>
+            <a href="https://forkify-recipe-finder-app.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/forkify.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--2">
+            <figure class="project__photo">
+              <img class="photo" src="/project-2.c8fac62b.png" alt="mapty-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Mapty</h2>
+              <p class="paragraph">Track location of workouts</p>
+            </div>
+            <a href="https://mapty-workout-app.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/mapty.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--3">
+            <figure class="project__photo">
+              <img class="photo" src="/project-3.a8ab32dd.png" alt="omnifood-project">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Omni food</h2>
+              <p class="paragraph">Food delivery website</p>
+            </div>
+            <a href="https://omnifood-asuka.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/omnifood-project.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--4">
+            <figure class="project__photo">
+              <img class="photo" src="/project-4.c3d72fee.png" alt="natours-travelwebsite">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Natours</h2>
+              <p class="paragraph">Travel website</p>
+            </div>
+            <a href="https://natours-travelwebsite.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/natours-travel-website-project.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--5">
+            <figure class="project__photo">
+              <img class="photo" src="/project-5.9136c7e9.png" alt="nexter-realestate">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Nexter</h2>
+              <p class="paragraph">Real estate website</p>
+            </div>
+            <a href="https://nexter-realestate.netlify.app" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/nexter-realestate-website.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--6">
+            <figure class="project__photo">
+              <img class="photo" src="/project-6.ee1f6a4a.png" alt="trillo-booking-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Trillo</h2>
+              <p class="paragraph">Booking website</p>
+            </div>
+            <a href="https://trillo-bookingapp.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/trillo-booking-app.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--7">
+            <figure class="project__photo">
+              <img class="photo" src="/project-7.50b03621.png" alt="todo-list-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">To-Do App</h2>
+              <p class="paragraph">Keep track of your todos</p>
+            </div>
+            <a href="https://todoapp-asuka.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/todo-app.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--8">
+            <figure class="project__photo">
+              <img class="photo" src="/project-8.0081c44b.png" alt="pig-game-app">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Pig Game</h2>
+              <p class="paragraph">Game of luck and strategy</p>
+            </div>
+            <a href="https://piggame-asuka.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/pig-game-project.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+          <li class="project__item project__item--9">
+            <figure class="project__photo">
+              <img class="photo" src="/project-9.314bdb57.png" alt="">
+            </figure>
+            <div class="project__text">
+              <h2 class="title">Mystery number</h2>
+              <p class="paragraph">What's the secret number?</p>
+            </div>
+            <a href="https://guessmynumbergame.netlify.app/" class="project__link project__link--demo">Demo</a>
+            <a href="https://github.com/asuka0527/guessmynumber-game.git" class="project__link project__link--code">
+              Code
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section--hidden section-about" id="section--2">
+        <div class="section-title">
+          <h2 class="header--2 section__text">About</h2>
+        </div>
+        <div class="about">
+          <div class="about__photo">
+            <img class="about__photo about__photo--1" src="/Asuka%20Nakajima.f9edeb47.jpg" alt="">
+          </div>
+
+          <div class="about__skills">
+            <div class="about__skills about__skills--text">
+              <p class="about__paragraph">
+                I dedicated hundreds of hours training—enrolled in different
+                courses online including but not limited to, HTML5 and CSS3,
+                Advanced CSS and Sass, JavaScript Web Projects,React JS, and
+                other topics, creating from zero and replicating different
+                websites such travel, food delivery and real estate.
+              </p>
+              <p class="about__paragraph">
+                The learning does not stop there therefore I continue to study
+                every single day to enhance my skills. Being a self-taught
+                developer allowed me to work in different projects that enhanced
+                my creativity and problem-solving skills, immense discipline,
+                and effectiveness for my desire from creating something out of
+                nothing, to creating something out of myself—and that I am proud
+                of, too.
+              </p>
+              <div class="btn__container">
+                <button class="btn btn--resume">Resume &rarr;</button>
+                <button class="btn btn--rirekisho">履歴書 &rarr;</button>
+                <button class="btn btn--shokumukeireki">
+                  職務経歴書 &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--hidden section-skill" id="section--3">
+        <div class="section-title">
+          <h2 class="header--2 section__text">Skills</h2>
+        </div>
+        <div class="skills">
+          <div class="skills__container">
+            <h3 class="skills__title header--3">Frontend</h3>
+
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS3</li>
+              <li>Sass and modern CSS technologies such as Flexbox and Grid</li>
+              <li>JavaScript (ES5 and ES6+)</li>
+              <li>React JS</li>
+              <li>Webpack, Parcel and Babel</li>
+              <li>Mobile Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skills__container">
+            <h3 class="skills__title header--3">Other Skills</h3>
+            <ul>
+              <li>BEM Methodology</li>
+              <li>Git(including Github)</li>
+              <li>Firebase & Firestore</li>
+              <li>Heroku & Netlify</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Autodesk Revit</li>
+              <li>Vectorworks</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a href="#header" class="nav__link"> Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--1" class="nav__link"> Projects </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--2" class="nav__link"> About </a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--3" class="nav__link"> Skills </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://github.com/asuka0527" class="nav__link">
+                <svg class="icon icon-github">
+                  <use href="/sprite.b38c80a6.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.linkedin.com/in/asuka-nakajima-developer/" class="nav__link">
+                <svg class="icon icon-linkedin">
+                  <use href="/sprite.b38c80a6.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          <p class="copyright__text">
+            Portfolio by
+            <span class="copyright__text copyright__text--highlight">Asuka Nakajima</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="resume hidden">
+      <embed src="/Asuka%20Nakajima%20-%20CV%20.e792e4fb.pdf" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="rirekisho hidden">
+      <embed src="/履歴書-%20中島明日香.3e7bdc30.pdf" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="shokumukeireki hidden">
+      <embed src="/職務経歴書　-%20中島明日香.f16ade4d.pdf" type="application/pdf" width="100%" height="100%">
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="/app.2158bee3.js"></script>
+  </body>
+</html>

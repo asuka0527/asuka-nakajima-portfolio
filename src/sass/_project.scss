@@ -1,0 +1,19 @@
+.project-updated {
+  &__title {
+    color: white;
+    font-size: 30rem;
+  }
+
+  &__content {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__photo {
+    width: 50%;
+  }
+
+  &__text {
+    width: 50%;
+  }
+}
